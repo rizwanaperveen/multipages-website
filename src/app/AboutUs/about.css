@@ -1,0 +1,26 @@
+.about{
+    padding: 10px;
+    text-align: center;
+    color: brown;
+    margin: 10px;
+    margin-bottom: 10px;
+}
+.about h1{
+    font-size: 40px;
+}
+.about p{
+    font-size: 18px;
+    padding: 20px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+@media (min-width: 200px) and (max-width: 768px) {
+    .box{
+        flex-direction: column;
+        text-align: center;
+    }
+}
